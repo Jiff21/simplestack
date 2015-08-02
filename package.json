@@ -1,0 +1,22 @@
+{
+  "name": "start",
+  "version": "0.0.0.1",
+  "description": "A starter project with git, npm, meteor, bootstrap, less, mongodb, and selenium.",
+  "main": "index,html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiff21/simplestack.git"
+  },
+  "author": "Jeff Campbell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jiff21/simplestack/issues"
+  },
+  "homepage": "https://github.com/Jiff21/simplestack#readme"
+}
