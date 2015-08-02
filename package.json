@@ -1,6 +1,6 @@
 {
   "name": "start",
-  "version": "0.0.0.1",
+  "version": "0.0.1",
   "description": "A starter project with git, npm, meteor, bootstrap, less, mongodb, and selenium.",
   "main": "index,html",
   "directories": {
