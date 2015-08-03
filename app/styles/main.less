@@ -1,0 +1,52 @@
+@import "./bootstrap-custom/custom.bootstrap.import.less";
+@import "./bootstrap-custom/custom.bootstrap.mixins.import.less";
+
+article {
+	.make-row();
+	margin-right: 20;
+	margin-left: 20;
+	.main {
+		.make-xs-column(12);
+		.make-sm-column(8);
+		.make-md-column(8);
+	}
+
+	aside {
+		.make-xs-column(12);
+		.make-sm-column(4);
+		.make-md-column(4);
+	}
+
+	.full {
+		.make-xs-column(12);
+	}
+
+	.half-full {
+		.make-xs-column(12);
+		.make-sm-column(6);
+		h3 {
+			text-align: center;
+		}
+	}
+
+	.fourth {
+		.make-xs-column(12);
+		.make-sm-column(3);
+		.make-md-column(3);
+	}
+
+	.five-of-seven {
+		.make-xs-column(12);
+		.make-sm-column(5);
+		h3 {
+			text-align: center;
+		}
+	}
+
+	.seven-of-five {
+		.make-sm-column(7);
+		h3 {
+			text-align: center;
+		}
+	}
+}
