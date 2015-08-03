@@ -8,6 +8,8 @@ if (Meteor.isClient) {
     }
   });
 
+  console.log('testing.')
+
   Template.hello.events({
     'click button': function () {
       // increment the counter when button is clicked
