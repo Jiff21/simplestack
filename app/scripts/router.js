@@ -1,9 +1,13 @@
 if (Meteor.isClient) {
+	Router.configure({
+    	layoutTemplate: 'MainLayout'
+	});
+
 	console.log('Starting Routing.');
 
 	Router.route('home', {
 		path: '/',
-			layoutTemplate: 'ApplicationLayout',
+			layoutTemplate: 'MainLayout',
 		yieldTemplates: {
 			'topNav': {to: 'menu'},
 			'home': {to: 'article'},
@@ -13,7 +17,7 @@ if (Meteor.isClient) {
 
 	Router.route('about', {
 		path: '/about',
-			layoutTemplate: 'ApplicationLayout',
+			layoutTemplate: 'MainLayout',
 		yieldTemplates: {
 			'topNav': {to: 'menu'},
 			'about': {to: 'article'},
@@ -23,7 +27,7 @@ if (Meteor.isClient) {
 
 	Router.route('projects', {
 		path: '/projects',
-			layoutTemplate: 'ApplicationLayout',
+			layoutTemplate: 'MainLayout',
 		yieldTemplates: {
 			'topNav': {to: 'menu'},
 			'projects': {to: 'article'},
@@ -33,7 +37,7 @@ if (Meteor.isClient) {
 
 	Router.route('notes', {
 		path: '/notes',
-			layoutTemplate: 'ApplicationLayout',
+			layoutTemplate: 'MainLayout',
 		yieldTemplates: {
 			'topNav': {to: 'menu'},
 			'notes': {to: 'article'},
@@ -43,7 +47,7 @@ if (Meteor.isClient) {
 
 	Router.route('tt', {
 		path: '/tt',
-			layoutTemplate: 'ApplicationLayout',
+			layoutTemplate: 'MainLayout',
 		yieldTemplates: {
 			'topNav': {to: 'menu'},
 			'tt': {to: 'article'},
@@ -53,7 +57,7 @@ if (Meteor.isClient) {
 
 	Router.route('login', {
 		path: '/login',
-			layoutTemplate: 'ApplicationLayout',
+			layoutTemplate: 'MainLayout',
 		yieldTemplates: {
 			'topNav': {to: 'menu'},
 			'login': {to: 'article'},
